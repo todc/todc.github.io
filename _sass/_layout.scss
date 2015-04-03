@@ -12,7 +12,6 @@ ul, ol, dl, figure,
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -21,16 +20,18 @@ ul, ol, dl, figure,
 }
 
 html {
-  background-color: #e4e5e8;
+  background-color: #e6e7e8;
 }
 body {
   background-color: #fff;
+  border-top: 4px solid #4285f4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
 }
 html,body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
 }
 .container {
   width: 860px;
@@ -54,12 +55,12 @@ a {
 }
 
 footer {
-  background-color: #e4e5e8;
+  background-color: #e6e7e8;
+  border-top: 10px solid #d1d3d4;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 13px;
-  font-weight: bold;
-  color: #555;
+  color: #7f8c8d;
   line-height: 80px;
   text-transform: uppercase;
 }
