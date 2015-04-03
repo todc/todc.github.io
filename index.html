@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        
+        {{ post.excerpt }}
+        
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &mdash; </span>
+        
+        <span class="post-tags">
+          {{ post.tags | join: ', ' }}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

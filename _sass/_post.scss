@@ -1,0 +1,54 @@
+.post {
+  margin: 40px 0;
+  
+  header {
+    .post-title {
+      margin-bottom: 5px;
+      font-family: 'Roboto Condensed';
+      letter-spacing: -0.3px;
+      font-size: 28px;
+    }
+    .post-meta {
+      margin-top: 0;
+    }
+  }
+  article {
+    margin: 20px 0 50px;
+  }
+}
+
+
+.post-list {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+  
+  li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    
+    &:last-child {
+      border: 0;
+    }
+    
+    .post-title {
+      margin-bottom: 0;
+      font-family: 'Roboto Condensed';
+      font-weight: 300;
+      letter-spacing: -0.3px;
+      font-size: 26px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .post-meta {
+      font-size: 14px;
+      color: #999;
+    }
+    .post-tags {
+      color: #999;
+    }
+  }
+}
